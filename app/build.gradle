@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
 group='com.github.wzehua'
@@ -6,7 +6,6 @@ group='com.github.wzehua'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.tiger.tlibary"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
